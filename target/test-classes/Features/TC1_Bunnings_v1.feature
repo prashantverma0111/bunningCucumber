@@ -30,7 +30,7 @@ Feature: feature to test Add to Basket  functionality
 
     Examples: 
       | username               | password     |
-      | bunnings0111@gmail.com | @!Bunnings23 |
+      | enterYourUsername | enterYourPassword |
       
   Scenario Outline: cart persist when user logs back
     Given user has logged in with <username> and <password>
@@ -43,7 +43,7 @@ Feature: feature to test Add to Basket  functionality
 
     Examples: 
       | username               | password     |
-      | bunnings0111@gmail.com | @!Bunnings23 |
+      | enterYourUsername | enterYourPassword |
       
       
       
